@@ -8,7 +8,7 @@ var app = express();
 //to link routers
 import UserRouter from './routes/user.router.js';
 import CategoryRouter from './routes/category.router.js';
-import SubCategoryRouter from './routes/Subcategory.router.js';
+import SubCategoryRouter from './routes/subcategory.router.js';
 
 
 //configuration to fetch req body content : body parser middleware
